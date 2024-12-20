@@ -18,10 +18,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mastermunj/to-words.git"
+    "url": "https://github.com/sabbaghpierre/to-words.git"
   },
   "license": "MIT",
-  "author": "Munjal Dhamecha",
+  "author": "Pierre Sabbagh",
   "main": "dist/ToWords.js",
   "scripts": {
     "build": "npm run clean && tsc --noEmitOnError",
