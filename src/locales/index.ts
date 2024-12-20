@@ -1,5 +1,6 @@
 import { ConstructorOf, LocaleInterface } from '../types';
 
+import deDE from './de-DE';
 import eeEE from './ee-EE';
 import enAe from './en-AE';
 import enBd from './en-BD';
@@ -28,6 +29,7 @@ import ptBR from './pt-BR';
 import trTr from './tr-TR';
 
 const LOCALES: { [key: string]: ConstructorOf<LocaleInterface> } = {
+  'de-DE': deDE,
   'ee-EE': eeEE,
   'en-AE': enAe,
   'en-BD': enBd,
